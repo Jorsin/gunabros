@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto", sans-serif;
+    font-weight:300;
+    color:#646565;
+	font-size:13px;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color:#646565;
+    transition: color 0.1s linear;
+}
+
+a:hover {
+    color:#b3b3b3;
+}
+
+#topBar {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    border-bottom: 1px solid lightgray;
+}
+
+#topBar span img{
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    color: lightgray;
+}
+
+#topBarDetails {
+    width: 60%;
+    display: flex;
+    justify-content: right;
+}
+
+#topBarDetails span {
+    margin-left: 0.8em;
+}
+
+#mailIcon {
+    margin-bottom: -2px;
+}
+
+#header {
+    /* padding-left: 20%; */
+}
