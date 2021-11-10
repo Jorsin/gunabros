@@ -21,7 +21,7 @@ function App() {
       <div id="Content">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route exact path="/" element={<Home/>} />
             <Route path="/products" element ={<Products/>} />
             <Route path="/services" element ={<Services/>} />
             <Route path="/about" element ={<About/>} />

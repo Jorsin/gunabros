@@ -5,7 +5,7 @@ function About() {
 
     return (
         <div>
-            <h1>Gunabros</h1>
+            <h1>About</h1>
         </div>
     );
 }
