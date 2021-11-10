@@ -1,6 +1,5 @@
 
 import {
-    BrowserRouter,
     Link
   } from "react-router-dom";
 
@@ -29,13 +28,11 @@ function Header() {
             </div>
             <div id="header">
                 <h1>Gunabros</h1>
-                <BrowserRouter>
-                    <Link to='/'>Home</Link>
-                    <Link to='/products'>Products</Link>
-                    <Link to='/services'>Services</Link>
-                    <Link to='/about'>About</Link>
-                    <Link to='/contact'>Contact</Link>
-                </BrowserRouter>
+                <Link to="/">Home</Link>
+                <Link to="/products">Products</Link>
+                <Link to="/services">Services</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
             </div>
         </div>
     );

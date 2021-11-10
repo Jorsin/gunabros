@@ -7,7 +7,6 @@ import Services from './components/Services.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
 import {
-  BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
@@ -19,15 +18,13 @@ function App() {
       <Header />
       
       <div id="Content">
-        <BrowserRouter>
           <Routes>
-            <Route exact path="/" element={<Home/>} />
-            <Route path="/products" element ={<Products/>} />
-            <Route path="/services" element ={<Services/>} />
-            <Route path="/about" element ={<About/>} />
-            <Route path="/contact" element ={<Contact/>} />
+            <Route path={"/"} exact element={<Home/>} />
+            <Route path={"/products"} element ={<Products/>} />
+            <Route path={"/services"} element ={<Services/>} />
+            <Route path={"/about"} element ={<About/>} />
+            <Route path={"/contact"} element ={<Contact/>} />
           </Routes>
-        </BrowserRouter>
       </div>
     </div>
   );
