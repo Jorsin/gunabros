@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gunabros/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/gunabros/static/js/main.f5049df4.chunk.js",
-    "main.js.map": "/gunabros/static/js/main.f5049df4.chunk.js.map",
+    "main.js": "/gunabros/static/js/main.b6d5f76a.chunk.js",
+    "main.js.map": "/gunabros/static/js/main.b6d5f76a.chunk.js.map",
     "runtime-main.js": "/gunabros/static/js/runtime-main.3ebfc4fb.js",
     "runtime-main.js.map": "/gunabros/static/js/runtime-main.3ebfc4fb.js.map",
     "static/js/2.ba42aa89.chunk.js": "/gunabros/static/js/2.ba42aa89.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3ebfc4fb.js",
     "static/js/2.ba42aa89.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.f5049df4.chunk.js"
+    "static/js/main.b6d5f76a.chunk.js"
   ]
 }
