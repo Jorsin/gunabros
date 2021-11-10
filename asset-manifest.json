@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "potato/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "potato/static/js/main.b46da29c.chunk.js",
-    "main.js.map": "potato/static/js/main.b46da29c.chunk.js.map",
-    "runtime-main.js": "potato/static/js/runtime-main.4f243b35.js",
-    "runtime-main.js.map": "potato/static/js/runtime-main.4f243b35.js.map",
-    "static/js/2.c1fb1746.chunk.js": "potato/static/js/2.c1fb1746.chunk.js",
-    "static/js/2.c1fb1746.chunk.js.map": "potato/static/js/2.c1fb1746.chunk.js.map",
-    "static/js/3.10397821.chunk.js": "potato/static/js/3.10397821.chunk.js",
-    "static/js/3.10397821.chunk.js.map": "potato/static/js/3.10397821.chunk.js.map",
+    "main.js": "potato/static/js/main.fada30bb.chunk.js",
+    "main.js.map": "potato/static/js/main.fada30bb.chunk.js.map",
+    "runtime-main.js": "potato/static/js/runtime-main.4b17dc21.js",
+    "runtime-main.js.map": "potato/static/js/runtime-main.4b17dc21.js.map",
+    "static/js/2.5b1cd59a.chunk.js": "potato/static/js/2.5b1cd59a.chunk.js",
+    "static/js/2.5b1cd59a.chunk.js.map": "potato/static/js/2.5b1cd59a.chunk.js.map",
+    "static/js/3.3e5e0b6a.chunk.js": "potato/static/js/3.3e5e0b6a.chunk.js",
+    "static/js/3.3e5e0b6a.chunk.js.map": "potato/static/js/3.3e5e0b6a.chunk.js.map",
     "index.html": "potato/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "potato/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.c1fb1746.chunk.js.LICENSE.txt": "potato/static/js/2.c1fb1746.chunk.js.LICENSE.txt"
+    "static/js/2.5b1cd59a.chunk.js.LICENSE.txt": "potato/static/js/2.5b1cd59a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f243b35.js",
-    "static/js/2.c1fb1746.chunk.js",
+    "static/js/runtime-main.4b17dc21.js",
+    "static/js/2.5b1cd59a.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.b46da29c.chunk.js"
+    "static/js/main.fada30bb.chunk.js"
   ]
 }
