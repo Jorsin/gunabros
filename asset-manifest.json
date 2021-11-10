@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/gunabros/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/gunabros/static/js/main.f5049df4.chunk.js",
-    "main.js.map": "/gunabros/static/js/main.f5049df4.chunk.js.map",
+    "main.js": "/gunabros/static/js/main.314649e5.chunk.js",
+    "main.js.map": "/gunabros/static/js/main.314649e5.chunk.js.map",
     "runtime-main.js": "/gunabros/static/js/runtime-main.3ebfc4fb.js",
     "runtime-main.js.map": "/gunabros/static/js/runtime-main.3ebfc4fb.js.map",
-    "static/js/2.ba42aa89.chunk.js": "/gunabros/static/js/2.ba42aa89.chunk.js",
-    "static/js/2.ba42aa89.chunk.js.map": "/gunabros/static/js/2.ba42aa89.chunk.js.map",
+    "static/js/2.f63071eb.chunk.js": "/gunabros/static/js/2.f63071eb.chunk.js",
+    "static/js/2.f63071eb.chunk.js.map": "/gunabros/static/js/2.f63071eb.chunk.js.map",
     "static/js/3.3e5e0b6a.chunk.js": "/gunabros/static/js/3.3e5e0b6a.chunk.js",
     "static/js/3.3e5e0b6a.chunk.js.map": "/gunabros/static/js/3.3e5e0b6a.chunk.js.map",
     "index.html": "/gunabros/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/gunabros/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.ba42aa89.chunk.js.LICENSE.txt": "/gunabros/static/js/2.ba42aa89.chunk.js.LICENSE.txt"
+    "static/js/2.f63071eb.chunk.js.LICENSE.txt": "/gunabros/static/js/2.f63071eb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3ebfc4fb.js",
-    "static/js/2.ba42aa89.chunk.js",
+    "static/js/2.f63071eb.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.f5049df4.chunk.js"
+    "static/js/main.314649e5.chunk.js"
   ]
 }
