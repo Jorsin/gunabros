@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "potato/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "potato/static/js/main.7648eb2b.chunk.js",
-    "main.js.map": "potato/static/js/main.7648eb2b.chunk.js.map",
+    "main.js": "potato/static/js/main.ebbcd5fd.chunk.js",
+    "main.js.map": "potato/static/js/main.ebbcd5fd.chunk.js.map",
     "runtime-main.js": "potato/static/js/runtime-main.4b17dc21.js",
     "runtime-main.js.map": "potato/static/js/runtime-main.4b17dc21.js.map",
     "static/js/2.5b1cd59a.chunk.js": "potato/static/js/2.5b1cd59a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4b17dc21.js",
     "static/js/2.5b1cd59a.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.7648eb2b.chunk.js"
+    "static/js/main.ebbcd5fd.chunk.js"
   ]
 }
