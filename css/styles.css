@@ -1,10 +1,15 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family:"Roboto", sans-serif;
-    font-weight:300;
-    color:#646565;
-	font-size:13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #646565;
+	font-size: 13px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -48,5 +53,64 @@ a:hover {
 }
 
 #header {
-    /* padding-left: 20%; */
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+    height: 160px;
 }
+
+#header .navLink{
+    font-size: 16px;
+    height: fit-content;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: 62px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-decoration-color: rgba(68, 116, 206, 0);
+    transition: text-decoration 0.2s linear;
+}
+
+#header .navLink:hover {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(68, 116, 206, 0.6);
+}
+
+#homeLogoLink {
+    display: flex;
+    transition: opacity 0.1s linear;
+    margin-right: 140px;
+}
+
+#homeLogoLink img{
+    align-self: center;
+    width: 276px;
+    min-height: 1px;
+}
+
+#homeLogoLink:hover {
+    opacity: 0.6;
+}
+
+
+/* Onload transitions */
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        /* transform: rotateX(-10deg); */
+    }
+
+    to {
+        opacity: 1;
+        /* transform: rotateX(0); */
+    }
+    
+}
+
+.transitionInOnload {
+    animation: transitionIn 0.75s;
+}
+
