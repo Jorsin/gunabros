@@ -27,12 +27,14 @@ function Header() {
                 </div>
             </div>
             <div id="header">
-                <h1>Gunabros</h1>
-                <Link to="/">Home</Link>
-                <Link to="/products">Products</Link>
-                <Link to="/services">Services</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link>
+                <a href="/" id="homeLogoLink">
+                    <img src="./images/icons/gunabros-logo2.png" alt="Gunabros" title="Gunabros" className="transitionInOnload"/>
+                </a>
+                <Link to="/" className="navLink">Home</Link>
+                <Link to="/products" className="navLink">Products</Link>
+                <Link to="/services" className="navLink">Services</Link>
+                <Link to="/about" className="navLink">About Us</Link>
+                <Link to="/contact" className="navLink">Contact</Link>
             </div>
         </div>
     );

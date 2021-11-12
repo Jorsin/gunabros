@@ -11,7 +11,7 @@ require('dotenv').config({path:__dirname+'/../.env'});
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/gunabros">
+    <BrowserRouter basename="">
       <App />
     </BrowserRouter>
   </React.StrictMode>,

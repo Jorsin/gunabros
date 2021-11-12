@@ -4,7 +4,7 @@
 function Services() {
 
     return (
-        <div>
+        <div className="transitionInOnload">
             <h1>Services</h1>
         </div>
     );

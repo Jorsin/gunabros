@@ -4,7 +4,7 @@
 function About() {
 
     return (
-        <div>
+        <div className="transitionInOnload">
             <h1>About</h1>
         </div>
     );

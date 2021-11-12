@@ -1,11 +1,11 @@
-
+import Slider from "./Slider/Slider.js";
 
 
 function Home() {
 
     return (
-        <div>
-            <h1>Home</h1>
+        <div className="transitionInOnload">
+            <Slider />
         </div>
     );
 }

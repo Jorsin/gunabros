@@ -18,13 +18,13 @@ function App() {
       <Header />
       
       <div id="Content">
-          <Routes>
-            <Route path={"/"} exact element={<Home/>} />
-            <Route path={"/products"} element ={<Products/>} />
-            <Route path={"/services"} element ={<Services/>} />
-            <Route path={"/about"} element ={<About/>} />
-            <Route path={"/contact"} element ={<Contact/>} />
-          </Routes>
+        <Routes>
+          <Route path={"/"} exact element={<Home/>} />
+          <Route path={"/products"} element ={<Products/>} />
+          <Route path={"/services"} element ={<Services/>} />
+          <Route path={"/about"} element ={<About/>} />
+          <Route path={"/contact"} element ={<Contact/>} />
+        </Routes>
       </div>
     </div>
   );

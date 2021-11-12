@@ -4,7 +4,7 @@
 function Products() {
 
     return (
-        <div>
+        <div className="transitionInOnload">
             <h1>Products</h1>
         </div>
     );
