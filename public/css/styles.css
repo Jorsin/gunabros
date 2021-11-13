@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -20,7 +22,7 @@ a {
 }
 
 a:hover {
-    color:#b3b3b3;
+    color:rgba(148, 148, 148, 0.847)
 }
 
 #topBar {
@@ -92,6 +94,125 @@ a:hover {
 
 #homeLogoLink:hover {
     opacity: 0.6;
+}
+
+.SubHeader {
+    display: flex;
+    justify-content: center;
+    background-color: #262262;
+    height: 124px;
+    width: 100%;
+}
+
+.SubHeader h1 {
+    width: 65%;
+    font-size: 52px;
+    letter-spacing: 1px;
+    color: rgba(255,255,255, 1);
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.Breadcrumbs {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 241, 242);;
+    height: 72px;
+    width: 100%;
+    color: #646565;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.Breadcrumbs #breadcrumb-center{
+    width: 65%;
+    height: 72px;
+}
+
+.breadcrumb-item {
+    display: inline;
+}
+
+.Breadcrumbs .breadcrumb-active {
+    color: #151515;
+}
+
+.Breadcrumbs span {
+    margin-top: 29px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#footerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 475px;
+    background-color: rgb(57, 62, 69);
+}
+
+#footerContainer h5 {
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+}
+
+#footerContainer p {
+    margin-bottom: 17px;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+}
+
+#mainFooter {
+    color: rgb(211, 211, 211);
+    padding-top: 55px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footerLeftPanel {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-left: -12%; */
+}
+
+#footerRightPanel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 13%;
+}
+
+#subFooter {
+    background-color: rgb(46, 50, 56);
+    font-weight: 300;
+    color: rgb(100, 101, 101);
+    height: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+#subFooter p {
+    margin-top: 25px;
+    color: #d3d3d3;
+    font-weight: 300;
+    font-size: 16px;
+    text-size-adjust: 100%;
+}
+
+#subFooter #author {
+    color: #fefefe;
 }
 
 

@@ -7,7 +7,7 @@ import {
 function Header() {
 
     return (
-        <div>
+        <>
             <div id="topBar">
                 <div id="topBarDetails">
                     <span>
@@ -36,7 +36,7 @@ function Header() {
                 <Link to="/about" className="navLink">About Us</Link>
                 <Link to="/contact" className="navLink">Contact</Link>
             </div>
-        </div>
+        </>
     );
 }
 

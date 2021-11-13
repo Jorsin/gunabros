@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header.js';
+import Header from './components/main/Header.js';
 import Home from './components/Home.js';
 import Products from './components/Products.js';
 import Services from './components/Services.js';
@@ -10,6 +9,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Footer from './components/main/Footer';
 
 
 function App() {
@@ -26,6 +26,7 @@ function App() {
           <Route path={"/contact"} element ={<Contact/>} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }

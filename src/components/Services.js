@@ -1,11 +1,15 @@
-
-
+import SubHeader from "./sub/SubHeader.js";
+import Breadcrumbs from "./sub/Breadcrumbs.js";
 
 function Services() {
 
     return (
         <div className="transitionInOnload">
-            <h1>Services</h1>
+            <SubHeader title="Services" />
+            <Breadcrumbs items={[
+                {name: "Home", link: ".."},
+                {name: "Services"}
+                ]}/>
         </div>
     );
 }
