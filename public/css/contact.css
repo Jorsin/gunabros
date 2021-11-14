@@ -1,0 +1,14 @@
+
+
+#contact-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#mapWrapper {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 1160px;
+    height: 400px;
+}
