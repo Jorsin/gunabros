@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom";
 import SubHeader from "./sub/SubHeader.js";
 import Breadcrumbs from "./sub/Breadcrumbs.js";
 import welder from "../assets/img-welder.jpg";
@@ -21,7 +23,7 @@ function About() {
                     <p className="transitionInZoomOnload">With a team of highly skilled tradesmen we aim at providing affordable, top quality solutions to our clients.</p>
                     <p className="transitionInZoomOnload">Please feel free to contact us to provide you with consultancy and a quote for your new project, or to advise you on the best solution for your industry.</p>
 
-                    <a href="../contact">Contact Us</a>
+                    <Link to="/contact" className="linkButton">Contact Us</Link>
                 </div>
             </div>
         </div>
