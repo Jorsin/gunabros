@@ -42,7 +42,7 @@
     margin-bottom: 30px;
 }
 
-#about-right-panel a{
+.linkButton {
     font-size: 14px;
     padding: 13px 30px 14px 30px;
     letter-spacing: 1px;    
@@ -59,7 +59,7 @@
     font-weight: 300;
 }
 
-#about-right-panel a:hover {
+.linkButton:hover {
     opacity: .6;
 }
 
