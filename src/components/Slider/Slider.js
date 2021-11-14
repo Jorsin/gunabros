@@ -22,7 +22,10 @@ function Slider(props) {
       time = new Date();
       remainingTime = slideDuration;
     }, slideDuration);
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      clearTimeout(timeout);
+    };
   }, [activeIndex]);
 
   function pauseTransition() {

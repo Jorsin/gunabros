@@ -5,7 +5,7 @@ import Breadcrumbs from "./sub/Breadcrumbs.js";
 function About() {
 
     return (
-        <div className="transitionInOnload">
+        <div>
             <SubHeader title="About" />
             <Breadcrumbs items={[
                 {name: "Home", link: ".."},

@@ -4,7 +4,7 @@
 function Footer() {
 
     return (
-        <div id="footerContainer">
+        <div id="footerContainer" className="transitionInOnload">
             <div id="mainFooter">
                 <div id="footerLeftPanel">
                     <h5>Our Company</h5>
@@ -25,7 +25,7 @@ function Footer() {
             </div>
 
             <div id="subFooter">
-                <p>Copyright © 2015 Gunabros. All rights reserved. Developed and Hosted by <span id="author">Daniel Besley</span>.</p>
+                <p>Copyright © 2015 Gunabros. All rights reserved. Developed and Hosted by <span id="author">Jorsin</span>.</p>
             </div>
         </div>
     );

@@ -26,14 +26,14 @@ function Breadcrumbs(props) {
                 {props.items.map((item, index) => {
                     console.log(item.name);
                     return (item.link !== undefined ?
-                        <div key={item.name} className="breadcrumb-item">
+                        <div key={item.name} className="breadcrumb-item transitionInOnload">
                             <span>
                                 <a href={item.link}>{item.name}</a>
                             </span>
                             <span>/</span>
                         </div>
                         :
-                        <span key={item.name} className="breadcrumb-active">
+                        <span key={item.name} className="breadcrumb-active transitionInOnload">
                             {item.name}
                         </span>)
                 })}
