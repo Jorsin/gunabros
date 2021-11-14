@@ -5,6 +5,9 @@
 @import "subheader.css";
 @import "footer.css";
 @import "products.css";
+@import "about.css";
+@import "contact.css";
+@import "services.css";
 
 
 html, body {
@@ -50,5 +53,9 @@ a:hover {
 
 .transitionInOnload {
     animation: transitionIn 0.75s;
+}
+
+.transitionInOnloadLong {
+    animation: transitionIn 3s;
 }
 
