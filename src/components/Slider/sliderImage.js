@@ -1,28 +1,35 @@
-import First from "../../assets/First.jpg";
 import shed from "../../assets/img-banner-shed.jpg";
 import welder from "../../assets/img-banner-welder.jpg";
 
+import mainLogo from "../../assets/img-logo-gunabros-large.png";
+import { Link } from "react-router-dom";
+
 const arr = [
   {
-    title: "First Slide",
-    description: "This is the first slider Image of our carousel",
-    urls: First,
-  },
-  {
-    title: "Second Slide",
-    description: "This is the second slider Image of our carousel",
+    // title: "First Slide",
+    // description: "This is the first slider Image of our carousel",
     urls: shed,
+    childrenI: (
+      <div className="slider-content" id="firstSlide">
+        <img id="slider-gunabrosLogo" src={mainLogo} alt="Gunabros Logo" />
+        <h3 id="main-slide-text">New Zealand Specialists in <br />Magnetic Systems and Components</h3>
+        <Link to="/contact" className="linkButton">CONTACT US NOW</Link>
+      </div>
+    ),
   },
   {
-    title: "Third Slide",
-    description: "This is the Third slider Image of our carousel",
+    // title: "First Slide",
+    // description: "This is the first slider Image of our carousel",
     urls: welder,
+    childrenI: (
+      <div className="slider-content" id="secondSlide">
+        <h2 id="second-main-slide-text">We can tailor make components to </h2>
+        <h2 id="second-main-slide-text2">the specifications you require</h2>
+        <br />
+        <Link to="/products" id="second-main-slide-link" className="linkButton">VIEW OUR PRODUCTS</Link>
+      </div>
+    ),
   },
-  // {
-  //   title: "Fourth Slide",
-  //   description: "This is the Fourth slider Image of our carousel",
-  //   urls: "https://mdbootstrap.com/img/Photos/Slides/img%20(133).jpg",
-  // },
   // {
   //   title: "Fifth Slide",
   //   description: "This is the Fifth slider Image of our carousel",
