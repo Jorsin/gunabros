@@ -49,15 +49,15 @@
 
 .productList .productList-center {
     display: flex;
-    width: 60%;
+    /* width: 60%; */
     flex-direction: column;
 }
 
 .productItem {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 30px;
-    width: 1200px;
     height: 450px;
     margin-bottom: 30px;
 }
