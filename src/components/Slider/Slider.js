@@ -10,7 +10,7 @@ const len = sliderImage.length - 1;
 
 function Slider(props) {
   const [activeIndex, setActiveIndex] = useState(0);
-  const slideDuration = 8000;
+  const slideDuration = 800000;
   var interval;
   var timeout;
   var time = new Date();

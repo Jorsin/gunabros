@@ -14,6 +14,10 @@
 @import "mQ/header.css";
 @import "mQ/home.css";
 @import "mQ/footer.css";
+@import "mQ/products.css";
+@import "mQ/services.css";
+@import "mQ/about.css";
+@import "mQ/contact.css";
 
 
 html, body {

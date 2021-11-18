@@ -112,6 +112,23 @@
     #topBarDetails {
         justify-content: left;
     }
+
+    .SubHeader {
+        height: 80px;
+    }
+
+    .SubHeader h1{
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    .Breadcrumbs, .Breadcrumbs #breadcrumb-center {
+        height: 60px;
+    }
+    
+    .Breadcrumbs span {
+        margin-top: 23px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -140,5 +157,10 @@
 
     #nav-links {
         margin-top: 40px;
+    }
+    
+    #topBarDetails {
+        flex-direction: column;
+        gap: 0.5em;
     }
 }
