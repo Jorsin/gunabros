@@ -10,6 +10,11 @@
 @import "services.css";
 @import "home.css";
 
+/* Media queries */
+@import "mQ/header.css";
+@import "mQ/home.css";
+@import "mQ/footer.css";
+
 
 html, body {
     scroll-behavior: smooth; 
@@ -19,6 +24,7 @@ html, body {
     font-weight: 300;
     color: #646565;
 	font-size: 13px;
+    overflow-x: hidden;
 }
 
 h1 {
