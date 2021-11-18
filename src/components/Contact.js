@@ -1,12 +1,14 @@
 import Breadcrumbs from "./sub/Breadcrumbs.js";
 import SubHeader from "./sub/SubHeader.js";
+import HideNav from './main/HideNav.js';
 
 
 
-function Contact() {
+function Contact(props) {
 
     return (
         <div>
+            <HideNav setDropMenu={props.setDropMenu}/>
             <SubHeader title="Contact" />
             <Breadcrumbs items={[
                 {name: "Home", link: ".."},

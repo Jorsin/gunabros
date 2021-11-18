@@ -124,7 +124,8 @@
     flex-direction: column;
     justify-content: center;
     width: 383px;
-    height: 242px;
+    height: 242px;    
+    margin-top: -4px;
     background-color: rgba(27, 27, 27, 0.8);
     transition: transform 0.2s linear;
 }

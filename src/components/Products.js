@@ -5,8 +5,9 @@ import All from "./products/All.js";
 import Conveyors from "./products/Conveyors.js";
 import Components from "./products/Components.js";
 import React, { useState } from "react";
+import HideNav from './main/HideNav.js';
 
-function Products() {
+function Products(props) {
 
     const [activeLink, setActiveLink] = useState("");
     const [breadcrumbs, setBreadcrumbs] = useState([
@@ -16,6 +17,7 @@ function Products() {
 
     return (
         <div>
+            <HideNav setDropMenu={props.setDropMenu}/>
             <SubHeader title="Products" />
             <Breadcrumbs items={breadcrumbs}/>
             

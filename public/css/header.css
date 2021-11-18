@@ -14,7 +14,7 @@
 }
 
 #topBarDetails {
-    width: 60%;
+    width: 77%;
     display: flex;
     justify-content: right;
 }
@@ -30,7 +30,7 @@
 #header {
     display: flex;
     justify-content: center;
-    column-gap: 7rem;
+    /* column-gap: 7rem; */
     height: 160px;
 }
 
@@ -67,4 +67,27 @@
 
 #homeLogoLink:hover {
     opacity: 0.6;
+}
+
+#btnNav {
+    display: none;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#btnNav span {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+}
+
+#logoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

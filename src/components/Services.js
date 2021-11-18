@@ -5,11 +5,13 @@ import support from "../assets/tech-support.jpg";
 import CubeSolid from "../assets/icons/cube-solid.svg";
 import ToolsSolid from "../assets/icons/tools-solid.svg";
 import EditSolid from "../assets/icons/edit-solid.svg";
+import HideNav from './main/HideNav.js';
 
-function Services() {
+function Services(props) {
 
     return (
         <div>
+            <HideNav setDropMenu={props.setDropMenu}/>
             <SubHeader title="Services" />
             <Breadcrumbs items={[
                 {name: "Home", link: ".."},

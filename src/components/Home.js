@@ -10,6 +10,8 @@ import ScrollToTop from './home/ScrollToTop.js';
 
 import { Link } from "react-router-dom";
 
+import HideNav from './main/HideNav.js';
+
 //Products
 import Prod1 from "../assets/products/1.jpg";
 import Prod2 from "../assets/products/2.jpg";
@@ -19,10 +21,11 @@ import Prod5 from "../assets/products/5.jpg";
 import Prod6 from "../assets/products/6.jpg";
 
 
-function Home() {
+function Home(props) {
 
     return (
         <div id="homepage" className="transitionInOnload">
+            <HideNav setDropMenu={props.setDropMenu}/>
             <Slider />
 
             <h2 className="homeSubheading">Services</h2>

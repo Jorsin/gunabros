@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import SubHeader from "./sub/SubHeader.js";
 import Breadcrumbs from "./sub/Breadcrumbs.js";
 import welder from "../assets/img-welder.jpg";
+import HideNav from './main/HideNav.js';
 
-function About() {
+function About(props) {
 
     return (
         <div id="about-page">
+            <HideNav setDropMenu={props.setDropMenu}/>
             <SubHeader title="About Us" />
             <Breadcrumbs items={[
                 {name: "Home", link: ".."},

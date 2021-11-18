@@ -15,6 +15,7 @@ function Slider(props) {
   var timeout;
   var time = new Date();
   var remainingTime = slideDuration;
+  var animationDelaySet = false;
 
   useEffect(() => {
     interval = setInterval(() => {
@@ -52,11 +53,21 @@ function Slider(props) {
     <div onMouseEnter={pauseTransition} onMouseLeave={resumeInterval} className="slider-container">
       <SliderContent activeIndex={activeIndex} sliderImage={sliderImage} />
       <Arrows
-        prevSlide={() =>
-          setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)
+        prevSlide={() => {
+          setActiveIndex(activeIndex < 1 ? len : activeIndex - 1);
+          if(animationDelaySet === false){
+            document.documentElement.style.setProperty('--slideContentDelay', '0.8s')
+            animationDelaySet = true;
+          };
         }
-        nextSlide={() =>
-          setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
+        }
+        nextSlide={() => {
+          setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
+          if(animationDelaySet === false){
+            document.documentElement.style.setProperty('--slideContentDelay', '0.8s')
+            animationDelaySet = true;
+          };
+        }
         }
       />
       {/* <Dots
