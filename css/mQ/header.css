@@ -70,6 +70,7 @@
         bottom: -14em;
         z-index: 20;
         background-color: rgb(240, 242, 241);
+        box-shadow: -1px 9px 16px 0px #2b2b2b9c;
         color: #2D2D2D;
         transition: all 0.2s linear;
         border-top: 2px solid #3EA5E1;
@@ -105,6 +106,7 @@
         /* display: none; */
         opacity: 0;
         height: 0;
+        bottom: calc(200px - 14em);
     }
 
     #topBarDetails {
@@ -117,6 +119,7 @@
 
     #nav-links {
         position: unset;
+        box-shadow: none;
     }
     
     #btnNav {
@@ -136,6 +139,6 @@
     }
 
     #nav-links {
-        margin-top: 20px;
+        margin-top: 40px;
     }
 }
