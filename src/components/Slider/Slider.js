@@ -10,7 +10,7 @@ const len = sliderImage.length - 1;
 
 function Slider(props) {
   const [activeIndex, setActiveIndex] = useState(0);
-  const slideDuration = 800000;
+  const slideDuration = 8000;
   var interval;
   var timeout;
   var time = new Date();
@@ -22,6 +22,10 @@ function Slider(props) {
       setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
       time = new Date();
       remainingTime = slideDuration;
+      if(animationDelaySet === false){
+        document.documentElement.style.setProperty('--slideContentDelay', '0.8s')
+        animationDelaySet = true;
+      };
     }, slideDuration);
     return () => {
       clearInterval(interval);
