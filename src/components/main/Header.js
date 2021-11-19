@@ -25,7 +25,7 @@ function Header(props) {
 
                     <span>
                         <img src={MailIcon} id="mailIcon" alt=""/>
-                        &nbsp;<a href="mailto:gunabros.systems@gmail.com">gunabros.systems@gamil.com</a>
+                        &nbsp;<a href="mailto:gunabros.systems@gmail.com">gunabros.systems@gmail.com</a>
                     </span>
                 </div>
             </div>
