@@ -20,7 +20,7 @@ function Footer() {
                     
                     <p><strong>Mobile:</strong><br />+64 22 432 6554</p>
                     
-                    <p><strong>Email:</strong><br />gunabros@orcon.net.nz</p>
+                    <p><strong>Email:</strong><br />gunabros.systems@gmail.com</p>
                 </div>
             </div>
 
