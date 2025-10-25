@@ -1,0 +1,2 @@
+Icons from fontawesome,
+see https://fontawesome.com/license
