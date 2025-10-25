@@ -8,6 +8,16 @@
 @import "about.css";
 @import "contact.css";
 @import "services.css";
+@import "home.css";
+
+/* Media queries */
+@import "mQ/header.css";
+@import "mQ/home.css";
+@import "mQ/footer.css";
+@import "mQ/products.css";
+@import "mQ/services.css";
+@import "mQ/about.css";
+@import "mQ/contact.css";
 
 
 html, body {
@@ -18,6 +28,7 @@ html, body {
     font-weight: 300;
     color: #646565;
 	font-size: 13px;
+    overflow-x: hidden;
 }
 
 h1 {
