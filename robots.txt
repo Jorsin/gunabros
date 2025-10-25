@@ -1,1 +1,3 @@
-https://livingtext.online/sitemap.txt
+User-agent: *
+Allow: /
+Sitemap: https://gunabros.com/sitemap.xml

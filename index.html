@@ -34,6 +34,20 @@
       content="Gunabros Systems has over 15 years of manufacturing excellence, and a passion for producing high-quality precision-engineered products and services"
     />
 
+    <!-- Open Graph / Social preview -->
+    <meta property="og:title" content="Gunabros — Precision Manufacturing" />
+    <meta property="og:description" content="Gunabros Systems: precision-engineered products and services with 15+ years of manufacturing excellence." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gunabros.com/" />
+    <meta property="og:image" content="https://gunabros.com/images/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gunabros — Precision Manufacturing" />
+    <meta name="twitter:description" content="Gunabros Systems: precision-engineered products and services with 15+ years of manufacturing excellence." />
+
+    <link rel="canonical" href="https://gunabros.com/" />
+
     <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -42,6 +56,29 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#dad8d8" />
     <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- Structured data (Organization + WebSite) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://gunabros.com/#org",
+          "name": "Gunabros",
+          "url": "https://gunabros.com/",
+          "logo": "https://gunabros.com/images/logo.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://gunabros.com/#website",
+          "url": "https://gunabros.com/",
+          "name": "Gunabros",
+          "publisher": { "@id": "https://gunabros.com/#org" }
+        }
+      ]
+    }
+    </script>
 
     <title>Gunabros</title>
   </head>
