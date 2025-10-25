@@ -1,18 +1,17 @@
+// Initialize Datadog before anything else
+import './datadog';
+
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import { createRoot } from 'react-dom/client';
+import { RouterProvider } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from "react-router-dom";
+import { router } from './MainWrapper';
 
-// console.log(process.env.PUBLIC_URL);
-
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <BrowserRouter basename="">
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
