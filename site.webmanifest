@@ -1,0 +1,14 @@
+{
+    "name": "Gunabros",
+    "short_name": "Gunabros",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#dad8d8",
+    "background_color": "#dad8d8",
+    "display": "standalone"
+}
